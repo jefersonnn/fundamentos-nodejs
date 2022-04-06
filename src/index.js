@@ -22,7 +22,6 @@ app.use(express.json());
  * Body Params => Objetos inserção / alteração de recurso
  */
 
-
 app.get("/courses", (request, response) => {
     const query = request.query;
     console.log(query);
